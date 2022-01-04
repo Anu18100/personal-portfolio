@@ -1,0 +1,53 @@
+.nav-wrap{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 5%;
+    height: 100vh;
+    flex-direction: none;
+    background: green;
+}
+.links{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+.link{
+    height: 50px;
+    text-decoration: none;
+    margin-bottom: 2%;
+}
+.home{
+    width: 40px;
+}
+.link-c{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+@media only screen and (max-width: 480px) {
+    .nav{
+        height: 10%;
+    }
+    .nav-wrap {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        background: green;
+        height: 10%;
+        position: relative;
+    }
+    .links {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 480px;
+        flex-direction: row;
+    }
+    
+  }

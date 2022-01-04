@@ -1,0 +1,68 @@
+.contact{
+    height: 10vh;
+    background: rgb(27, 26, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    align-content: center;
+}
+.down{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.copy{
+    width: 15px;
+    align-self: center;
+}
+.mail{
+    width: 50px;
+}
+.up{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mail-c{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social{
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.med{
+    width: 40px;
+}
+@media only screen and (max-width: 480px){
+    .contact{
+        width: 480px;
+        height: 25vh;
+        
+    }
+    .up{
+        display: flex;
+    }
+    .social{
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .mail-c{
+        margin-right: 20%;
+    }
+    .mail{
+        width: 60px;
+    }
+    span.email{
+        display: none;
+    }
+}
+
